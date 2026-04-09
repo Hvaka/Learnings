@@ -12,6 +12,7 @@ import FormsEvents from './FormsEvents';
 import SampleArray from './SampleArray';
 import SampleArray1 from './SampleArray1';
 import SampleArray2 from './SampleArray2';
+import TempLit from './TempLit';
 
 
 function App() {
@@ -37,6 +38,7 @@ const myCar = {
       <SampleArray />
       <SampleArray1 />
       <SampleArray2 />
+      <TempLit />
     </div>
   );
 }
