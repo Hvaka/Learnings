@@ -13,6 +13,7 @@ import SampleArray from './SampleArray';
 import SampleArray1 from './SampleArray1';
 import SampleArray2 from './SampleArray2';
 import TempLit from './TempLit';
+import Fetch from './Fetch';
 
 
 function App() {
@@ -34,11 +35,12 @@ const myCar = {
 
   return (
     <div>
-      <FormsEvents />
+      {/* <FormsEvents />
       <SampleArray />
       <SampleArray1 />
       <SampleArray2 />
-      <TempLit />
+      <TempLit /> */}
+      <Fetch />
     </div>
   );
 }
