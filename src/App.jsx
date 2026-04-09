@@ -9,6 +9,9 @@ import { useState } from 'react';
 import ClickEvent from './ClickEvent';
 import Chat from './Chat';
 import FormsEvents from './FormsEvents';
+import SampleArray from './SampleArray';
+import SampleArray1 from './SampleArray1';
+import SampleArray2 from './SampleArray2';
 
 
 function App() {
@@ -31,6 +34,9 @@ const myCar = {
   return (
     <div>
       <FormsEvents />
+      <SampleArray />
+      <SampleArray1 />
+      <SampleArray2 />
     </div>
   );
 }
