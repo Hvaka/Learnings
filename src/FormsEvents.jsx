@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+
 
 
 // const [email, setEmail] = useState("");
@@ -7,9 +9,11 @@ import { useState } from "react";
 const FormsEvents = () => {
     const [name, setName] = useState("");
     const [userHandle, setUserHandle] = useState("");
+    const notify = () => toast("data submitted successfully!");
 
     const handleSubmit = () => {
         setUserHandle(name);
+        notify();
     };
 
     const getName = () => {
@@ -20,6 +24,7 @@ const FormsEvents = () => {
     };
     return (
         <div>
+            <ToastContainer />
             <h2>{userHandle}</h2>
             <input 
                 type="text" 
